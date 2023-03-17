@@ -19,7 +19,7 @@ const AddNewTask = ({ list }:AddNewTaskProps) => {
     e.preventDefault();
 
     if(taskName.trim() === '') {
-      return alert('Task namee is required!');
+      return alert('Task name is required!');
     }
 
     const newTask: Task = {
